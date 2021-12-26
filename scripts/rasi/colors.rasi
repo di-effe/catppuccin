@@ -2,7 +2,7 @@
 
 * {
     background: #1e1e28;
-    background-light: #332e41s;
+    background-light: #332e41;
     foreground: #dadae8;
     foreground-dark: #44475A;
     primary: #e5b4e2;

@@ -3,6 +3,7 @@
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Configuration](#configuration)
+  - [Applets](#applets)
   - [Wallpapers](#wallpapers)
   - [Polybar](#polybar)
     - [Pulseaudio Control](#pulseaudio-control)
@@ -21,6 +22,9 @@
 # Screenshots
 ![screenshot1](./screenshots/screenshot1.png)
 ![screenshot2](./screenshots/screenshot2.png)
+![launcher](./screenshots/launcher.png)
+![powermenu](./screenshots/powermenu.png)
+![layout](./screenshots/layout.png)
 
 # Dependencies
 
@@ -90,6 +94,41 @@ $MOD + Shift + r
 
 
 # Configuration 
+
+## Applets
+
+This theme doesn´t have a launcher and powermenu modules configured in Polybar, but you can configured a new keybindings to launch some Rofi applets.
+
+For example you could add these to your `config.toml`
+
+```
+# Theme applets
+
+# Launcher
+[[keybind]]
+command = "Execute"
+value = "$HOME/.config/leftwm/themes/current/scripts/launcher.sh"
+modifier = ["modkey"]
+key = "space"
+
+# Powermenu
+[[keybind]]
+command = "Execute"
+value = "$HOME/.config/leftwm/themes/current/scripts/powermenu.sh"
+modifier = ["modkey", "Shift"]
+key = "p"
+
+# Layout switcher
+[[keybind]]
+command = "Execute"
+value = "$HOME/.config/leftwm/themes/current/scripts/layout.sh"
+modifier = ["modkey", "Shift"]
+key = "l"
+```
+
+Run a `leftwm-check` to ensure you don´t have multiple bindings on the same keys.
+
+
 
 ## Wallpapers
 
