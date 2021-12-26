@@ -97,7 +97,7 @@ $MOD + Shift + r
 
 ## Applets
 
-This theme doesn´t have a launcher and powermenu modules configured in Polybar, but you can configured a new keybindings to launch some Rofi applets.
+This theme doesn´t have a launcher and powermenu modules configured in Polybar, but you can configured a few keybindings to launch some Rofi applets.
 
 For example you could add these to your `config.toml`
 
