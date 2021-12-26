@@ -23,16 +23,3 @@ pkill xfce4-notifyd &
 pkill dunst &
 pkill wired &
 pkill sxhkd &
-
-
-# Remove temp files
-
-KEYBINDINGS=/tmp/leftwm-keybindings
-if [ -f "$KEYBINDINGS" ]; then
-    rm $KEYBINDINGS
-fi
-
-KEYMAP=/tmp/leftwm-keymap
-if [ -f "$KEYMAP" ]; then
-    rm $KEYMAP
-fi
