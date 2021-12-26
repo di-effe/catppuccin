@@ -1,0 +1,14 @@
+{% for tag in workspace.tags %}
+
+{% if tag.mine %}
+{{tag.index}},{{tag.name}},m;
+{% elsif tag.visible %}
+{{tag.index}},{{tag.name}},v;
+{% elsif tag.busy %}
+{{tag.index}},{{tag.name}},b;
+{% else tag.visible %}
+{{tag.index}},{{tag.name}},e;
+{% endif %}
+
+
+{% endfor %}
