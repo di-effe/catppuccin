@@ -151,7 +151,7 @@ If you want to use it change position and adjust the **tray-offset-x** value.
 
 
 ## To do
-- [] More color schemes from the catppuccin project
+- [ ] More color schemes from the catppuccin project
 
 
 
