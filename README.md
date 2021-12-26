@@ -14,7 +14,7 @@
 
 
 # Catppuccin
-*A [LeftWM](https://github.com/leftwm/leftwm) minimalistic theme inspired by the adorable [homonym pastel theme](https://github.com/catppuccin)*
+*A [LeftWM](https://github.com/leftwm/leftwm) minimalistic theme inspired by the adorable [homonymous pastel theme](https://github.com/catppuccin)*
 
 
 
