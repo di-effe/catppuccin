@@ -1,6 +1,6 @@
 # Catppuccin
 *A [LeftWM](https://github.com/leftwm/leftwm) minimalistic theme inspired by the adorable [homonymous pastel theme](https://github.com/catppuccin)*
-
+s
 
 - [Catppuccin](#catppuccin)
 - [Screenshots](#screenshots)
@@ -24,8 +24,11 @@
 ![screenshot1](./screenshots/screenshot1.png)
 ![screenshot2](./screenshots/screenshot2.png)
 ![launcher](./screenshots/launcher.png)
+![launcher2](./screenshots/launcher2.png)
 ![powermenu](./screenshots/powermenu.png)
+![powermenu2](./screenshots/powermenu2.png)
 ![layout](./screenshots/layout.png)
+![layout2](./screenshots/layout2.png)
 
 # Dependencies
 
