@@ -1,22 +1,23 @@
+# Catppuccin
+*A [LeftWM](https://github.com/leftwm/leftwm) minimalistic theme inspired by the adorable [homonymous pastel theme](https://github.com/catppuccin)*
+
+
 - [Catppuccin](#catppuccin)
 - [Screenshots](#screenshots)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Configuration](#configuration)
+  - [Colors](#colors)
   - [Applets](#applets)
   - [Wallpapers](#wallpapers)
   - [Polybar](#polybar)
     - [Pulseaudio Control](#pulseaudio-control)
     - [Systray](#systray)
 - [Changelog](#changelog)
+  - [v0.1.1](#v011)
   - [v0.1.0](#v010)
   - [To do](#to-do)
 - [Credit / Sources](#credit--sources)
-
-
-# Catppuccin
-*A [LeftWM](https://github.com/leftwm/leftwm) minimalistic theme inspired by the adorable [homonymous pastel theme](https://github.com/catppuccin)*
-
 
 
 # Screenshots
@@ -94,6 +95,49 @@ $MOD + Shift + r
 
 
 # Configuration 
+
+## Colors
+In a theme like this colors are spread all over the place and it's not fun keep track of everything, every time you want to change something. That's why I am using a custom color script to do the dirty job for me.
+
+Colors are set each time the *UP* script run
+
+```
+source $SCRIPTPATH/scripts/colors.sh catppuccin
+```
+
+Two color themes are already available to choose from:
+- catppuccin
+- catppuccin2
+
+Long story short `colors.sh` performs different tasks, mostly `sed`, in all files where colors are set.
+The parameter after the script is communicating `colors.sh` to read from the colors variables from `scripts/colors_<THEME_NAME>.sh`, and by default that would be `scripts/colors_catppuccin.sh`
+
+```
+## Catppuccin theme
+COLOR_BAR_BACKGROUND="#332E41"
+COLOR_BAR_FOREGROUND="#BEE4ED"
+COLOR_BACKGROUND="#332E41"
+COLOR_FOREGROUND="#DADAE8"
+COLOR_FOREGROUND_DARK="#44475A"
+COLOR_PRIMARY="#E5B4E2"
+COLOR_SECONDARY="#BEE4ED"
+COLOR_ALTERNATE="#FFE70D"
+COLOR_INACTIVE="#757575"
+COLOR_BORDER_ACTIVE="#C6AAE8"
+COLOR_BORDER_INACTIVE="#1E1E28"
+COLOR_BORDER_FLOATING="#F9C096"
+COLOR_APPLET_BACKGROUND="#1E1E28"
+COLOR_APPLET_BACKGROUND_LIGHT="#332E41"
+
+```
+
+So, if you want to change colors manually comment the source `$SCRIPTPATH/scripts/colors.sh catppuccin` or your changes will be overwritten.
+
+My suggestion, to avoid going crazy, would be to use the same method and 
+- create a custom color theme
+- add your theme to the `themes=(catppuccin catppuccin2);` array in `colors.sh`
+- optionally adapt `colors.sh` to your needs
+
 
 ## Applets
 
@@ -185,12 +229,20 @@ If you want to use it change position and adjust the **tray-offset-x** value.
 
 # Changelog
 
+## v0.1.1
+- Multiple color themes
+  - catppuccin
+  - catppuccin2
+- Updated documentation
+- Minor changes
+
+
 ## v0.1.0
 - First release
 
 
 ## To do
-- [ ] More color schemes from the catppuccin project
+- [x] More color schemes from the catppuccin project
 
 
 
@@ -202,3 +254,4 @@ If you want to use it change position and adjust the **tray-offset-x** value.
 
 - Powermenu is loosely based on the [rofi-themes](hhttps://github.com/adi1090x/rofi) by [adi1090x](https://github.com/adi1090x) covered by a GNU General Public License v3.0
 
+- Wallpapers and color schemes by [catppuccin](https://github.com/catppuccin/), of course

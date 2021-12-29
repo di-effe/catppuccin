@@ -24,10 +24,12 @@
 ;; spacer-dot
 ;; temperature
 ;; wlan
-
+;; workspace0
+;; workspace1
 
 
 ######  Modules ###### 
+
 
 [module/arch-updates]
 type = custom/script
@@ -376,3 +378,13 @@ format-connected-padding = 0
 label-connected = "%{A1:nm-connection-editor:}直 %{A}"
 
 
+[module/workspace0]
+type = custom/script
+exec = leftwm-state -w 0 -t "$SCRIPTPATH/polybar.liquid"
+tail = true
+
+
+[module/workspace1]
+type = custom/script
+exec = leftwm-state -w 1 -t "$SCRIPTPATH/polybar.liquid"
+tail = true

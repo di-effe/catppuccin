@@ -9,7 +9,7 @@ if [ -z "$1" ]
 fi
 
 # Available themes array
-themes=(catppuccins);
+themes=(catppuccin catppuccin2);
 if [[ " "${themes[@]}" " == *" "$1" "* ]] ;then
     echo "Good boy.."
 else

@@ -7,6 +7,6 @@ else
   then 
     echo "  "
   else
-    echo "%{F#E5B4E2}  %{F-}"
+    echo "%{F#A4B9EF}  %{F-}"
   fi
 fi

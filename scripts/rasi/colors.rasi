@@ -3,8 +3,8 @@
 * {
     background: #1E1E28;
     background-light: #332E41;
-    foreground: #DADAE8;
+    foreground: #E5B4E2;
     foreground-dark: #44475A;
-    primary: #E5B4E2;
-    bordercolor: #C6AAE8;
+    primary: #A4B9EF;
+    bordercolor: #BEE4ED;
 }
