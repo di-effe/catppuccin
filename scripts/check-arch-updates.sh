@@ -7,5 +7,5 @@ if ! updates_arch=$(checkupdates 2> /dev/null | wc -l ); then
 fi
 
 if [ $updates_arch -gt 0 ]; then
-    echo %{F#B7E5E6}   Arch: $updates_arch %{F-}
+    echo %{F#C6AAE8}   Arch: $updates_arch %{F-}
 fi

@@ -8,9 +8,9 @@
 [color]
 ;; Main colors
 background = #332E41
-foreground = #F5E0DC
+foreground = #B7E5E6
 ;;foreground-alt = #9C9C9C
-primary = #B7E5E6
+primary = #C6AAE8
 secondary = #DFDEF1
 alternate = #FFE70D
 

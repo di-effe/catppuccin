@@ -5,6 +5,6 @@
     background-light: #575268;
     foreground: #DFDEF1;
     foreground-dark: #988BA2;
-    primary: #B7E5E6;
-    bordercolor: #B7E5E6;
+    primary: #C6AAE8;
+    bordercolor: #C6AAE8;
 }
