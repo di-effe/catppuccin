@@ -14,6 +14,7 @@ s
     - [Pulseaudio Control](#pulseaudio-control)
     - [Systray](#systray)
 - [Changelog](#changelog)
+  - [v0.1.2](#v012)
   - [v0.1.1](#v011)
   - [v0.1.0](#v010)
   - [To do](#to-do)
@@ -28,7 +29,7 @@ s
 ![powermenu](./screenshots/powermenu.png)
 ![powermenu2](./screenshots/powermenu2.png)
 ![layout](./screenshots/layout.png)
-![layout2](./screenshots/layout2.png)
+![layout2](./screenshots/layout2le.png)
 
 # Dependencies
 
@@ -118,19 +119,19 @@ The parameter after the script is communicating `colors.sh` to read from the col
 ```
 ## Catppuccin theme
 COLOR_BAR_BACKGROUND="#332E41"
-COLOR_BAR_FOREGROUND="#BEE4ED"
+COLOR_BAR_FOREGROUND="#B7E5E6"
 COLOR_BACKGROUND="#332E41"
-COLOR_FOREGROUND="#DADAE8"
-COLOR_FOREGROUND_DARK="#44475A"
-COLOR_PRIMARY="#E5B4E2"
-COLOR_SECONDARY="#BEE4ED"
-COLOR_ALTERNATE="#FFE70D"
-COLOR_INACTIVE="#757575"
+COLOR_FOREGROUND="#DFDEF1"
+COLOR_FOREGROUND_DARK="#988BA2"
+COLOR_PRIMARY="#C6AAE8"
+COLOR_SECONDARY="#DFDEF1"
+COLOR_ALTERNATE="#C6AAE8"
+COLOR_INACTIVE="#6E6C7E"
 COLOR_BORDER_ACTIVE="#C6AAE8"
 COLOR_BORDER_INACTIVE="#1E1E28"
-COLOR_BORDER_FLOATING="#F9C096"
-COLOR_APPLET_BACKGROUND="#1E1E28"
-COLOR_APPLET_BACKGROUND_LIGHT="#332E41"
+COLOR_BORDER_FLOATING="#F2CDCD"
+COLOR_APPLET_BACKGROUND="#332E41"
+COLOR_APPLET_BACKGROUND_LIGHT="#575268"
 
 ```
 
@@ -231,6 +232,9 @@ If you want to use it change position and adjust the **tray-offset-x** value.
 
 
 # Changelog
+
+## v0.1.2
+- catppuccino 1.2 updates
 
 ## v0.1.1
 - Multiple color themes

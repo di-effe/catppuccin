@@ -8,10 +8,10 @@
 [color]
 ;; Main colors
 background = #332E41
-foreground = #BEE4ED
+foreground = #F5E0DC
 ;;foreground-alt = #9C9C9C
-primary = #C6AAE8
-secondary = #DADAE8
+primary = #B7E5E6
+secondary = #DFDEF1
 alternate = #FFE70D
 
 trans = #00000000
