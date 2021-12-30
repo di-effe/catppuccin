@@ -29,7 +29,7 @@ s
 ![powermenu](./screenshots/powermenu.png)
 ![powermenu2](./screenshots/powermenu2.png)
 ![layout](./screenshots/layout.png)
-![layout2](./screenshots/layout2le.png)
+![layout2](./screenshots/layout2.png)
 
 # Dependencies
 
