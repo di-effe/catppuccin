@@ -41,7 +41,7 @@ s
 - Noto Sans
 - FontAwesome
 
-Fee free to install some fonts from the theme root folder
+Feel free to install some fonts from the theme root folder
 ```
 ./installfonts.sh
 ```
