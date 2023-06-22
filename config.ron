@@ -48,6 +48,7 @@
         (command: FocusWorkspacePrevious, value: "", modifier: ["modkey"], key: "h"),
         (command: MoveWindowUp, value: "", modifier: ["modkey", "Shift"], key: "Up"),
         (command: MoveWindowDown, value: "", modifier: ["modkey", "Shift"], key: "Down"),
+        (command: MoveWindowTop, value: "", modifier: ["modkey"], key: "Return"),
         (command: FocusWindowUp, value: "", modifier: ["modkey"], key: "Up"),
         (command: FocusWindowDown, value: "", modifier: ["modkey"], key: "Down"),
         (command: IncreaseMainWidth, value: "5", modifier: ["modkey"], key: "a"),
