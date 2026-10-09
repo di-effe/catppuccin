@@ -1,6 +1,9 @@
 # Catppuccin
 *A [LeftWM](https://github.com/leftwm/leftwm) minimalistic theme inspired by the adorable [homonymous pastel theme](https://github.com/catppuccin)*
-s
+
+> [!WARNING]
+> **Archived and no longer maintained.** This theme dates from December 2021 and has not been updated since. LeftWM has since moved its theme configuration from TOML to RON, so it most likely does not work with current LeftWM as it is.
+> This repository is kept here for reference only.
 
 - [Catppuccin](#catppuccin)
 - [Screenshots](#screenshots)
