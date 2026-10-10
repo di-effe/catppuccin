@@ -1,5 +1,3 @@
-@import "colors.rasi"
-
 configuration {
 	font:							"Feather 30";
     disable-history:            	false;
@@ -7,6 +5,7 @@ configuration {
 	show-icons:                     false;
 }
 
+@import "colors.rasi"
 
 * {
 	background-color:				@background;

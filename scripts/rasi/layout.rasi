@@ -3,15 +3,14 @@
 # Original design by Aditya Shakya (@adi1090x) #
 ################################################
 */
-
-@import "colors.rasi"
-
 configuration {
     show-icons:                     false;
 	font:                      		"Iosevka Nerd Font 12";
     disable-history:                false;
 	sidebar-mode: 					false;
 }
+
+@import "colors.rasi"
 
 * {
     background-color:               @background;
